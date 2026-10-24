@@ -45,6 +45,21 @@ transform 梁文谷_pos:
     yalign 1.0
     zoom 0.72*0.7
 
+transform 乖乖claude_pos:
+    xalign 0.40
+    yalign 1.0
+    zoom 0.67*0.7
+
+transform 乖乖大肥鱼_pos:
+    xalign 0.78
+    yalign 1.0
+    zoom 0.67*0.7
+
+transform 害羞claude_pos:
+    xalign 0.23
+    yalign 1.0
+    zoom 0.67*0.8
+
 define e = Character("佳亦")
 
 define fish = Character("deepseek酱", color="#316ea4")
@@ -297,6 +312,58 @@ label start:
 
     stop sound fadeout 1.0
 
+    #这里加入你慵懒的回家
+    scene black_bg with fade
+    show expression Text("你慵懒的走回了家", size=80, color="#ffffff", outlines=[(2, "#000000", 0, 0)]) as intro_text at center_popup
+    pause 1.2
+    hide intro_text with dissolve
+
+    # 先保持黑屏，再播放开门声，最后再切到房间
+    pause 0.3
+    play sound "libs/开门.mp3" volume 0.99
+    pause 0.8
+    scene room_02_2 with fade
+
+    show 乖乖claude at 乖乖claude_pos
+    show 乖乖大肥鱼 at 乖乖大肥鱼_pos
+
+    play music "libs/夜晚的欢乐时光.mp3" volume 0.55 fadein 1.0
+
+    claude "主人，你怎么来了"
+
+    hide 乖乖claude with dissolve
+    show 害羞claude at 害羞claude_pos
+
+    e "呃，你们两个关系啥时候那么好了"
+
+    claude "别别...别胡说，谁和她关系好了"
+
+    fish "claude姐姐是好人"
+
+    fish "我很喜欢claude 姐姐"
+
+    e "看来你们还是可以做朋友的嘛！"
+
+    e "看我给你们带来啥"
+
+    scene black with fade
+    show 大白饭:
+        xalign 0.5
+        yalign 0.5
+        zoom 1.0/3.0
+    pause 1.0
+    hide 大白饭 with dissolve
+
     
+    scene room_02_2
+
+    show 害羞claude at 害羞claude_pos
+    show 大肥鱼 at 大肥鱼_pos
+
+    fish "大白饭，我要大白饭！"
+
+    claude "主人，我有话想对你说，我们出去走走吧"
+
+    fish "wow,大白饭，大白饭，大白饭"
 
     return
