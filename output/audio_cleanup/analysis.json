@@ -1,0 +1,111 @@
+[
+  {
+    "file": "01.mp3",
+    "seconds": 23.088,
+    "sample_rate": 48000,
+    "bitrate": 320000,
+    "tail_silences": []
+  },
+  {
+    "file": "02.mp3",
+    "seconds": 156.702,
+    "sample_rate": 44100,
+    "bitrate": 256000,
+    "tail_silences": [
+      {
+        "start": 148.785,
+        "end": 152.514,
+        "duration": 3.73
+      }
+    ]
+  },
+  {
+    "file": "《木琴倒数第三秒》Xuxu-流行.mp3",
+    "seconds": 17.763,
+    "sample_rate": 44100,
+    "bitrate": 320000,
+    "tail_silences": [
+      {
+        "start": 12.91,
+        "end": 14.509,
+        "duration": 1.6
+      }
+    ]
+  },
+  {
+    "file": "夜晚的欢乐时光.mp3",
+    "seconds": 167.752,
+    "sample_rate": 44100,
+    "bitrate": 256000,
+    "tail_silences": [
+      {
+        "start": 153.171,
+        "end": 154.572,
+        "duration": 1.401
+      },
+      {
+        "start": 157.852,
+        "end": 158.594,
+        "duration": 0.743
+      },
+      {
+        "start": 158.596,
+        "end": 163.564,
+        "duration": 4.968
+      }
+    ]
+  },
+  {
+    "file": "开门.mp3",
+    "seconds": 4.788,
+    "sample_rate": 32000,
+    "bitrate": 96000,
+    "tail_silences": [
+      {
+        "start": 3.985,
+        "end": 4.771,
+        "duration": 0.787
+      }
+    ]
+  },
+  {
+    "file": "忧郁夏夜.mp3",
+    "seconds": 148.708,
+    "sample_rate": 44100,
+    "bitrate": 256000,
+    "tail_silences": [
+      {
+        "start": 143.256,
+        "end": 144.521,
+        "duration": 1.264
+      }
+    ]
+  },
+  {
+    "file": "愤怒的claude.mp3",
+    "seconds": 5.808,
+    "sample_rate": 48000,
+    "bitrate": 320000,
+    "tail_silences": []
+  },
+  {
+    "file": "敲门声.mp3",
+    "seconds": 1.123,
+    "sample_rate": 44100,
+    "bitrate": 95856,
+    "tail_silences": []
+  },
+  {
+    "file": "这瓜保熟吗.mp3",
+    "seconds": 64.699,
+    "sample_rate": 44100,
+    "bitrate": 256000,
+    "tail_silences": [
+      {
+        "start": 58.735,
+        "end": 60.511,
+        "duration": 1.776
+      }
+    ]
+  }
+]
